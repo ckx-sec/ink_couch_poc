@@ -14,6 +14,11 @@ ink_lang = { version = "3", default-features = false }
 scale = { package = "parity-scale-codec", version = "3", default-features = false, features = ["derive"] }
 scale-info = { version = "2", default-features = false, features = ["derive"], optional = true }
 
+futures = "0.3"
+couch_rs = "0.8"
+serde_json = "1.0"
+tokio = "1.20"
+
 [lib]
 name = "ink_couch"
 path = "lib.rs"
